@@ -5,6 +5,7 @@ function scene2() {
   stage = document.querySelector('#stage');
   castle = document.querySelector('#castle');
   castleImgSrc = castle.getAttribute('src');
+  stageImg = document.querySelector('#stage-img');
   stageImg.setAttribute('src', castleImgSrc);
 
   // Setup Cast

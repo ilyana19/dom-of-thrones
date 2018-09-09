@@ -6,7 +6,6 @@ function scene3() {
   stageImg = document.querySelector('#stage-img')
   stageImg.setAttribute('src', mySrc)
 
-
   // Setup Cast
 
   // Character 1
@@ -97,5 +96,4 @@ function scene3() {
     egg.style.left = "72%";
     egg.style.transform = "rotateZ(0deg)";
   })
-
 }
